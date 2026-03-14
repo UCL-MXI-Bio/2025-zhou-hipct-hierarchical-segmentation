@@ -48,17 +48,25 @@ The high-resolution manually annotated data (in 2.58 um/voxel ~ 5.2 um/voxel) ar
 The complete HiP-CT kidney volumes are available at [HOAHub Portal](https://human-organ-atlas.esrf.fr/). The DOIs are in the manuscript.
 
 # Citation
-
 ```
- @article {Zhou2025.05.15.654263,
-	author = {Zhou, Yang and Aslani, Shahab and Javanmardi, Yousef and Brunet, Joseph and Stansby, David and Carroll, Saskia and Bellier, Alexandre and Ackermann, Maximilian and Tafforeau, Paul and Lee, Peter D. and Walsh, Claire L.},
-	title = {Multiscale Segmentation using Hierarchical Phase-contrast Tomography and Deep Learning},
-	elocation-id = {2025.05.15.654263},
-	year = {2025},
-	doi = {10.1101/2025.05.15.654263},
-	publisher = {Cold Spring Harbor Laboratory},
-	URL = {https://www.biorxiv.org/content/early/2025/05/27/2025.05.15.654263},
-	eprint = {https://www.biorxiv.org/content/early/2025/05/27/2025.05.15.654263.full.pdf},
-	journal = {bioRxiv}
+@article{zhou2026multiscale,
+  title={Multiscale segmentation using hierarchical phase-contrast tomography and deep learning},
+  author={Zhou, Yang and Aslani, Shahab and Javanmardi, Yousef and Brunet, Joseph and Stansby, David and Carroll, Saskia and Bellier, Alexandre and Ackermann, Maximilian and Tafforeau, Paul and Lee, Peter D and others},
+  journal={PLOS Computational Biology},
+  volume={22},
+  number={2},
+  pages={e1013923},
+  year={2026},
+  publisher={Public Library of Science San Francisco, CA USA}
+}
+@article{walsh2021imaging,
+  title={Imaging intact human organs with local resolution of cellular structures using hierarchical phase-contrast tomography},
+  author={Tafforeau, P and Wagner, WL and Jafree, DJ and Bellier, A and Werlein, C and K{\"u}hnel, MP and Boller, E and Walker-Samuel, S and Robertus, JL and others},
+  journal={Nature methods},
+  volume={18},
+  number={12},
+  pages={1532--1541},
+  year={2021},
+  publisher={Nature Publishing Group US New York}
 }
 ```
