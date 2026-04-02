@@ -209,6 +209,10 @@ class nnUNetTrainer(object):
                                                            self.configuration_manager,
                                                            self.num_input_channels,
                                                            enable_deep_supervision=True).to(self.device)
+            
+            #pytorch_total_params = sum(p.numel() for p in self.network.parameters() if p.requires_grad)
+            #self.print_to_log_file(f'Total number of trainable params: {pytorch_total_params}')
+
             # compile network for free speedup
             if self._do_i_compile():
                 self.print_to_log_file('Compiling network...')
